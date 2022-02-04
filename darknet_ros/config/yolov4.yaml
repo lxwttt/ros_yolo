@@ -1,0 +1,13 @@
+yolo_model:
+
+  config_file:
+    name: yolov4-pacsp-x-mish.cfg
+  weight_file:
+    name: no-armor_best_overall.weights
+  threshold:
+    value: 0.25
+  detection_classes:
+    names:
+     - watcher
+     - car
+     - base
